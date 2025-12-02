@@ -115,13 +115,13 @@ python eval_mlp.py
 
 #### MLP与CNN收敛对比
 
-![Convergence Curve](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/convergence_curve.png)
+![Convergence Curve](/experiments/figures/convergence_curve.png)
 
 该图展示了MLP和CNN模型在训练过程中的准确率变化情况。可以看出，CNN模型收敛速度更快，最终准确率也更高。
 
 #### 消融实验收敛对比
 
-![Ablation Convergence](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/ablation_convergence.png)
+![Ablation Convergence](/experiments/figures/ablation_convergence.png)
 
 该图展示了不同MLP变体在训练过程中的准确率变化情况，包括基础MLP、MLP v1、MLP v2以及消融实验模型。
 
@@ -129,7 +129,7 @@ python eval_mlp.py
 
 #### 不同模型最终准确率
 
-![Final Accuracy](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/ablation_final_accuracy.png)
+![Final Accuracy](/experiments/figures/ablation_final_accuracy.png)
 
 该图展示了不同模型的最终测试准确率对比，包括：
 
@@ -142,13 +142,13 @@ python eval_mlp.py
 
 ### 过拟合差距
 
-![Overfitting Gap](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/overfitting_gap.png)
+![Overfitting Gap](/experiments/figures/overfitting_gap.png)
 
 该图展示了不同模型的训练准确率与测试准确率之间的差距，反映了模型的过拟合程度。
 
 ### 准确率与参数数量关系
 
-![Accuracy vs Params](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/accuracy_vs_params.png)
+![Accuracy vs Params](/experiments/figures/accuracy_vs_params.png)
 
 该图展示了不同模型的准确率与参数数量之间的关系，帮助分析模型复杂度与性能的权衡。
 
@@ -156,19 +156,19 @@ python eval_mlp.py
 
 #### 所有模型混淆矩阵对比
 
-![Confusion Matrices](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/confusion_matrices.png)
+![Confusion Matrices](/experiments/figures/confusion_matrices.png)
 
 该图展示了所有模型的混淆矩阵对比，直观反映了模型在每个类别上的分类表现。
 
 #### CNN模型混淆矩阵
 
-![CNN Confusion Matrix](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/confusion_matrix_cnn.png)
+![CNN Confusion Matrix](/experiments/figures/confusion_matrix_cnn.png)
 
 该图展示了CNN模型的混淆矩阵，详细反映了CNN在每个类别上的分类表现。
 
 #### MLP模型混淆矩阵
 
-![MLP Confusion Matrix](D:/Desktop/AI-FP-6253115009/ChineseMNIST-Classifier/experiments/figures/confusion_matrix_mlp.png)
+![MLP Confusion Matrix](/experiments/figures/confusion_matrix_mlp.png)
 
 该图展示了基础MLP模型的混淆矩阵，详细反映了MLP在每个类别上的分类表现。
 
