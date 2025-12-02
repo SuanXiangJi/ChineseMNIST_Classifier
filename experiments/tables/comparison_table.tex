@@ -1,0 +1,12 @@
+\begin{table}[htbp]
+\centering
+\caption{Model Performance Comparison}\n\begin{tabular}{|l|c|c|c|c|}\hline
+Model & Test Acc (\%) & Params (K) & Overfitting Gap (\%) & Train Time (s/epoch) \\hline
+Train & 98.9 & 0 & 0.36 & 5.0 \\hline
+Cnn & 98.07 & 2194.8 & 1.06 & 5.0 \\hline
+Mlp V1 & 87.03 & 4858.9 & 10.26 & 5.0 \\hline
+Mlp Ablation Layernorm Only & 87.0 & 4858.9 & 9.36 & 5.0 \\hline
+Mlp Ablation Gelu Only & 82.53 & 4855.3 & 5.84 & 5.0 \\hline
+Mlp & 82.2 & 4855.3 & 6.42 & 5.0 \\hline
+Mlp V2 & 76.3 & 10891.3 & 22.62 & 5.0 \\hline
+\end{tabular}\label{tab:model_comparison}\end{table}
