@@ -100,10 +100,6 @@ python eval_mlp.py
 - **eval_cnn.py**：评估CNN模型
 - **eval_mlp.py**：评估MLP模型
 
-### 主脚本
-
-- **main_train.py**：主训练脚本（示例）
-- **main_eval.py**：主评估脚本（示例）
 
 ### 工具脚本
 
